@@ -1,20 +1,16 @@
-# Next.js Contentlayer Example
+# `#BuildInPublic` and `#LearnInPublic` Repo for AWebFactory.org
 
-## Demo
+## Project Flow & Tracker
 
-View the deployed project: [Demo](https://next-contentlayer-example.vercel.app/)
+Repo for awebfactory.org: web application factory pattern - workspaces for web
+application process #BuildInPublic #LearnInPublic open projects soon to be on
+view and in action
 
-## Try it Now
+## Based on Next.js Contentlayer Example
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](http://gitpod.io/#https://github.com/contentlayerdev/next-contentlayer-example)
+### Local Installation
 
-## Local Installation
-
-Clone the project:
-
-    git clone git@github.com:contentlayerdev/next-contentlayer-example.git
-
-Install dependencies:
+Clone the project and install dependencies:
 
     yarn
 
