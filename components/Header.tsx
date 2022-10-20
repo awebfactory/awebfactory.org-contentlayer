@@ -1,8 +1,14 @@
-import Link from 'next/link'
+import Link from "next/link"
 
 function Icon() {
   return (
-    <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      width="22"
+      height="24"
+      viewBox="0 0 22 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -19,10 +25,15 @@ function Logo() {
   return (
     <Link href="/">
       <a className="inline-flex justify-center items-center">
-        <span className="mr-2">
-          <Icon />
+        <span className="font-bold text-orange-peel-500">
+          <img
+            width="150"
+            height="41"
+            title="AWebFactory.org"
+            alt="AWebFactory.org"
+            src="/images/logo.png"
+          />
         </span>
-        <span className="font-bold">Contentlayer</span>
       </a>
     </Link>
   )
