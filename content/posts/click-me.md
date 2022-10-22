@@ -1,5 +1,6 @@
 ---
 title: Click me!
+type: Post
 date: 2022-02-28
 ---
 

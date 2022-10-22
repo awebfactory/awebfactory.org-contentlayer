@@ -1,5 +1,6 @@
 ---
 title: Change me please!
+type: Post
 date: 2022-03-11
 ---
 
