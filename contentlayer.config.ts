@@ -16,7 +16,7 @@ const Post = defineDocumentType(() => ({
   },
   computedFields: {
     url: {
-      type: "json",
+      type: "string",
       resolve: (doc) => `/posts/${doc._raw.flattenedPath}`,
     },
   },
@@ -54,7 +54,7 @@ const Project = defineDocumentType(() => ({
   },
   computedFields: {
     url: {
-      type: "json",
+      type: "string",
       resolve: (doc) => `/projects/${doc._raw.flattenedPath}`,
     },
   },
